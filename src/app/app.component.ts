@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, NgModule } from "@angular/core";
 
 @Component({
   selector: 'pm-root',
@@ -8,6 +8,8 @@ import { Component } from "@angular/core";
     </div>
     `
 })
+
+
 export class AppComponent {
     pageTitle: string = 'Acme Product Manegment';
 }
